@@ -7,7 +7,7 @@ about:
   latestVersion: "1.7.7"
   latestRelease: "1.7.7"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:19:32Z
+  collectedAt: 2026-09-09T19:49:21Z
 timeline:
   created: 2016-09-13
   lastCommit: 2026-08-12
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2024-03-30
   lastPrerelease: 
 popularity:
-  star: 12337
+  star: 12339
   watcher: 123
   fork: 1205
   release: 29
@@ -90,7 +90,7 @@ total:
   commit: 888
 ---
 path: /home/runner/.x-repo/github.com/tsl0922/ttyd
-collectedAt: 2026-09-09T05:19:34Z
+collectedAt: 2026-09-09T19:49:26Z
 loc:
   CHeader:
     code: 16388
