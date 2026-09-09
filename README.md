@@ -7,7 +7,7 @@ Share your terminal over the web
 - **Latest release**: `1.7.7` (2024-03-30)
 - **Last commit**: 2026-08-12
 - **License**: MIT
-- **Stars**: 12337 · **Forks**: 1205 · **Open issues**: 629 · **Contributors**: 65
+- **Stars**: 12339 · **Forks**: 1205 · **Open issues**: 629 · **Contributors**: 65
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/ttyd> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T05:19:38Z._
+_Last regenerated: 2026-09-09T19:49:37Z._
