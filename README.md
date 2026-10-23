@@ -30,8 +30,8 @@ Overall score: **3.2 / 10**
 
 Lowest-scoring checks:
 
-- **Maintained** (1/10) — 2 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 1
 - **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
+- **Maintained** (1/10) — 2 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,532 · **Forks**: 1,212 · **Open issues**: 635 · **Contributors**: 65
+- **Stars**: 12,539 · **Forks**: 1,212 · **Open issues**: 635 · **Contributors**: 65
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 2 | 0 | 5 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 4 | 2 | 6 | 0 |
-| 90d | 2026-07-24 | 0 | 1 | 7 | 2 | 9 | 2 |
-| last180d | 2026-04-25 | 0 | 1 | 24 | 4 | 15 | 2 |
-| 360d | 2025-10-27 | 0 | 4 | 36 | 13 | 24 | 14 |
-| last720d | 2024-11-01 | 0 | 5 | 43 | 44 | 50 | 24 |
+| 30d | 2026-09-23 | 0 | 0 | 2 | 0 | 5 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 4 | 2 | 6 | 0 |
+| 90d | 2026-07-25 | 0 | 1 | 6 | 2 | 9 | 2 |
+| last180d | 2026-04-26 | 0 | 1 | 24 | 4 | 15 | 2 |
+| 360d | 2025-10-28 | 0 | 4 | 36 | 13 | 24 | 14 |
+| last720d | 2024-11-02 | 0 | 5 | 43 | 44 | 50 | 24 |
 
 ## Release assets
 
@@ -82,6 +82,24 @@ Lowest-scoring checks:
 | [ttyd.win32.exe](https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.win32.exe) | 1.3 MiB | `native/win/x64` |
 | [ttyd.x86_64](https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.x86_64) | 1.3 MiB | `other` |
 
+## Distribution status
+
+Reported by **90** distros on [repology.org](https://repology.org/project/ttyd). **70** are ✅ on the latest upstream release, **15** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.7.7` | ✅ latest |
+| Debian 14 | `1.7.7` | ✅ latest |
+| Ubuntu 26.04 LTS | `1.7.7` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.7.4` | ⚠️ outdated |
+| Arch | `1.7.7` | ✅ latest |
+| Homebrew | `1.7.7` | ✅ latest |
+| Fedora rawhide | `1.7.7` | ✅ latest |
+| Nix unstable | `1.7.7` | ✅ latest |
+| Void | `1.7.7` | ✅ latest |
+| Alpine edge | `1.7.7` | ✅ latest |
+| openSUSE Tumbleweed | `1.7.7` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for ttyd lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ttyd` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -91,4 +109,4 @@ Install metadata for ttyd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:22:01Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:16:34Z._
