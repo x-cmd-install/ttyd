@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,543 · **Forks**: 1,212 · **Open issues**: 635 · **Contributors**: 65
+- **Stars**: 12,546 · **Forks**: 1,213 · **Open issues**: 636 · **Contributors**: 65
 
 ## Totals (cumulative)
 
-- **Releases**: 29 · **Merged PRs**: 325 · **Open PRs**: 44 · **Closed issues**: 557 · **Open issues**: 78 · **Commits**: 888
+- **Releases**: 29 · **Merged PRs**: 325 · **Open PRs**: 46 · **Closed issues**: 557 · **Open issues**: 79 · **Commits**: 888
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 0 | 2 | 0 | 5 | 0 |
-| last60d | 2026-08-26 | 0 | 0 | 4 | 2 | 6 | 0 |
-| 90d | 2026-07-27 | 0 | 1 | 6 | 2 | 9 | 2 |
-| last180d | 2026-04-28 | 0 | 1 | 24 | 4 | 15 | 2 |
-| 360d | 2025-10-30 | 0 | 4 | 36 | 13 | 24 | 14 |
-| last720d | 2024-11-04 | 0 | 5 | 43 | 44 | 50 | 24 |
+| 30d | 2026-09-26 | 0 | 0 | 4 | 0 | 6 | 0 |
+| last60d | 2026-08-27 | 0 | 0 | 6 | 2 | 7 | 0 |
+| 90d | 2026-07-28 | 0 | 1 | 7 | 2 | 10 | 2 |
+| last180d | 2026-04-29 | 0 | 1 | 25 | 4 | 16 | 2 |
+| 360d | 2025-10-31 | 0 | 4 | 38 | 13 | 25 | 14 |
+| last720d | 2024-11-05 | 0 | 5 | 45 | 44 | 51 | 24 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for ttyd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:06:51Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:11:20Z._
