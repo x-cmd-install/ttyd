@@ -30,8 +30,8 @@ x install ttyd
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
 - **Maintained** (1/10) — 2 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 1
+- **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -48,22 +48,22 @@ x install ttyd
 
 ## 流行度
 
-- **Star**: 12,551 · **Fork**: 1,213 · **开放 issue**: 636 · **贡献者**: 65
+- **Star**: 12,557 · **Fork**: 1,215 · **开放 issue**: 637 · **贡献者**: 65
 
 ## 累计统计
 
-- **发布数**: 29 · **已合并 PR**: 325 · **开放 PR**: 46 · **已关闭 issue**: 557 · **开放 issue**: 79 · **提交数**: 888
+- **发布数**: 29 · **已合并 PR**: 325 · **开放 PR**: 47 · **已关闭 issue**: 557 · **开放 issue**: 80 · **提交数**: 888
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 4 | 0 | 6 | 0 |
-| last60d | 2026-08-28 | 0 | 0 | 6 | 2 | 7 | 0 |
-| 90d | 2026-07-29 | 0 | 1 | 7 | 2 | 10 | 2 |
-| last180d | 2026-04-30 | 0 | 1 | 25 | 4 | 16 | 2 |
-| 360d | 2025-11-01 | 0 | 4 | 38 | 13 | 25 | 14 |
-| last720d | 2024-11-06 | 0 | 5 | 45 | 44 | 51 | 24 |
+| 30d | 2026-09-28 | 0 | 0 | 4 | 0 | 6 | 0 |
+| last60d | 2026-08-29 | 0 | 0 | 7 | 2 | 8 | 0 |
+| 90d | 2026-07-30 | 0 | 1 | 8 | 2 | 11 | 2 |
+| last180d | 2026-05-01 | 0 | 1 | 26 | 4 | 17 | 2 |
+| 360d | 2025-11-02 | 0 | 4 | 39 | 13 | 26 | 14 |
+| last720d | 2024-11-07 | 0 | 5 | 46 | 44 | 52 | 24 |
 
 ## Release 资产
 
@@ -109,4 +109,4 @@ ttyd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261027.yml` · 2026-10-27T05:34:05Z._
+_数据快照: `data/card/261028.yml` · 2026-10-28T06:17:24Z._
