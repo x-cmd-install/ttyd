@@ -48,7 +48,7 @@ x install ttyd
 
 ## 流行度
 
-- **Star**: 12,570 · **Fork**: 1,218 · **开放 issue**: 638 · **贡献者**: 65
+- **Star**: 12,570 · **Fork**: 1,219 · **开放 issue**: 638 · **贡献者**: 65
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install ttyd
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 0 | 5 | 0 | 6 | 0 |
-| last60d | 2026-09-02 | 0 | 0 | 8 | 1 | 9 | 0 |
-| 90d | 2026-08-03 | 0 | 1 | 9 | 2 | 11 | 2 |
-| last180d | 2026-05-05 | 0 | 1 | 27 | 4 | 18 | 2 |
-| 360d | 2025-11-06 | 0 | 4 | 40 | 12 | 27 | 14 |
-| last720d | 2024-11-11 | 0 | 5 | 47 | 44 | 52 | 24 |
+| 30d | 2026-10-03 | 0 | 0 | 5 | 0 | 6 | 0 |
+| last60d | 2026-09-03 | 0 | 0 | 8 | 0 | 9 | 0 |
+| 90d | 2026-08-04 | 0 | 1 | 9 | 2 | 11 | 2 |
+| last180d | 2026-05-06 | 0 | 1 | 27 | 4 | 18 | 2 |
+| 360d | 2025-11-07 | 0 | 4 | 40 | 12 | 27 | 14 |
+| last720d | 2024-11-12 | 0 | 5 | 47 | 44 | 51 | 24 |
 
 ## Release 资产
 
@@ -84,7 +84,7 @@ x install ttyd
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ttyd) 上共有 **90** 个发行版报告此项目。**70** 个 ✅ 已是最新上游版本，**15** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ttyd) 上共有 **91** 个发行版报告此项目。**69** 个 ✅ 已是最新上游版本，**17** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -93,7 +93,7 @@ x install ttyd
 | Ubuntu 26.04 LTS | `1.7.7` | ✅ latest |
 | Ubuntu 24.04 LTS | `1.7.4` | ⚠️ outdated |
 | Arch | `1.7.7` | ✅ latest |
-| Homebrew | `1.7.7` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.7.7` | ✅ latest |
 | Nix unstable | `1.7.7` | ✅ latest |
 | Void | `1.7.7` | ✅ latest |
@@ -109,4 +109,4 @@ ttyd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261101.yml` · 2026-11-01T06:36:13Z._
+_数据快照: `data/card/261102.yml` · 2026-11-02T06:34:21Z._
