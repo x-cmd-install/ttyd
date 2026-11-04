@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,575 · **Forks**: 1,220 · **Open issues**: 639 · **Contributors**: 65
+- **Stars**: 12,578 · **Forks**: 1,221 · **Open issues**: 639 · **Contributors**: 65
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 0 | 5 | 0 | 7 | 0 |
-| last60d | 2026-09-04 | 0 | 0 | 8 | 0 | 10 | 0 |
-| 90d | 2026-08-05 | 0 | 0 | 9 | 2 | 12 | 2 |
-| last180d | 2026-05-07 | 0 | 1 | 27 | 4 | 18 | 2 |
-| 360d | 2025-11-08 | 0 | 4 | 40 | 12 | 28 | 14 |
-| last720d | 2024-11-13 | 0 | 5 | 47 | 44 | 52 | 24 |
+| 30d | 2026-10-05 | 0 | 0 | 5 | 0 | 7 | 0 |
+| last60d | 2026-09-05 | 0 | 0 | 8 | 0 | 10 | 0 |
+| 90d | 2026-08-06 | 0 | 0 | 9 | 2 | 12 | 2 |
+| last180d | 2026-05-08 | 0 | 1 | 27 | 4 | 18 | 2 |
+| 360d | 2025-11-09 | 0 | 4 | 40 | 12 | 28 | 14 |
+| last720d | 2024-11-14 | 0 | 5 | 47 | 44 | 52 | 24 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **92** distros on [repology.org](https://repology.org/project/ttyd). **70** are ✅ on the latest upstream release, **17** are ⚠️ on an older version.
+Reported by **90** distros on [repology.org](https://repology.org/project/ttyd). **68** are ✅ on the latest upstream release, **17** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -109,4 +109,4 @@ Install metadata for ttyd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:25:18Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:53:37Z._
