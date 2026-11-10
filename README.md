@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,598 · **Forks**: 1,228 · **Open issues**: 639 · **Contributors**: 65
+- **Stars**: 12,604 · **Forks**: 1,230 · **Open issues**: 639 · **Contributors**: 65
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 0 | 5 | 0 | 6 | 0 |
-| last60d | 2026-09-10 | 0 | 0 | 8 | 0 | 10 | 0 |
-| 90d | 2026-08-11 | 0 | 0 | 8 | 2 | 11 | 0 |
-| last180d | 2026-05-13 | 0 | 1 | 26 | 4 | 16 | 2 |
-| 360d | 2025-11-14 | 0 | 4 | 40 | 12 | 27 | 14 |
-| last720d | 2024-11-19 | 0 | 5 | 47 | 44 | 52 | 24 |
+| 30d | 2026-10-11 | 0 | 0 | 5 | 0 | 6 | 0 |
+| last60d | 2026-09-11 | 0 | 0 | 8 | 0 | 10 | 0 |
+| 90d | 2026-08-12 | 0 | 0 | 8 | 2 | 11 | 0 |
+| last180d | 2026-05-14 | 0 | 1 | 26 | 4 | 16 | 2 |
+| 360d | 2025-11-15 | 0 | 4 | 40 | 12 | 27 | 14 |
+| last720d | 2024-11-20 | 0 | 5 | 47 | 44 | 52 | 24 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for ttyd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T07:01:13Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:59:45Z._
