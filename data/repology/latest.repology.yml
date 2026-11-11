@@ -1,27 +1,3 @@
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: ttyd
-  visiblename: ttyd
-  version: 1.7.3
-  origversion: 1.7.3-bp156.1.7
-  status: outdated
-  summary: Share your terminal over the web
-  licenses:
-    - MIT
-  categories:
-    - System/Monitoring
-- repo: openbsd
-  srcname: www/ttyd
-  binname: ttyd
-  visiblename: www/ttyd
-  version: 1.7.7
-  origversion: null
-  status: newest
-  summary: share your terminal over the web
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - www
 - repo: aerynos
   srcname: ttyd
   visiblename: ttyd
@@ -111,17 +87,6 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: stalix_dev
-  srcname: bin/tty/d
-  binname: bin/tty/d
-  visiblename: bin/tty/d
-  version: 1.7.7
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: alpine_3_20
   subrepo: community
   srcname: ttyd
@@ -324,17 +289,6 @@
     - utils
 - repo: arch
   subrepo: extra
-  srcname: ttyd
-  binname: ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: 1.7.7-3
-  status: newest
-  summary: Share your terminal over the web
-  licenses:
-    - MIT
-- repo: arch_testing
-  subrepo: extra-testing
   srcname: ttyd
   binname: ttyd
   visiblename: ttyd
@@ -745,7 +699,7 @@
   binname: ttyd
   visiblename: ttyd
   version: 1.7.7
-  origversion: 1.7.7-3
+  origversion: 1.7.7-4
   status: newest
   summary: Share your terminal over the web
   licenses:
@@ -846,6 +800,30 @@
     - aseipp@pobox.com
   licenses:
     - MIT
+- repo: openbsd
+  srcname: www/ttyd
+  binname: ttyd
+  visiblename: www/ttyd
+  version: 1.7.7
+  origversion: null
+  status: newest
+  summary: share your terminal over the web
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - www
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: ttyd
+  visiblename: ttyd
+  version: 1.7.3
+  origversion: 1.7.3-bp156.1.7
+  status: outdated
+  summary: Share your terminal over the web
+  licenses:
+    - MIT
+  categories:
+    - System/Monitoring
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: ttyd
@@ -998,6 +976,17 @@
   categories:
     - debug
 - repo: stalix
+  srcname: bin/tty/d
+  binname: bin/tty/d
+  visiblename: bin/tty/d
+  version: 1.7.7
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
   srcname: bin/tty/d
   binname: bin/tty/d
   visiblename: bin/tty/d
