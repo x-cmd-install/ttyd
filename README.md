@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,606 · **Forks**: 1,230 · **Open issues**: 639 · **Contributors**: 65
+- **Stars**: 12,618 · **Forks**: 1,231 · **Open issues**: 641 · **Contributors**: 65
 
 ## Totals (cumulative)
 
-- **Releases**: 29 · **Merged PRs**: 325 · **Open PRs**: 51 · **Closed issues**: 557 · **Open issues**: 82 · **Commits**: 888
+- **Releases**: 29 · **Merged PRs**: 325 · **Open PRs**: 52 · **Closed issues**: 557 · **Open issues**: 84 · **Commits**: 888
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 0 | 7 | 0 | 5 | 0 |
-| last60d | 2026-09-12 | 0 | 0 | 11 | 0 | 10 | 0 |
-| 90d | 2026-08-13 | 0 | 0 | 11 | 2 | 11 | 0 |
-| last180d | 2026-05-15 | 0 | 1 | 29 | 4 | 16 | 2 |
-| 360d | 2025-11-16 | 0 | 4 | 43 | 12 | 27 | 14 |
-| last720d | 2024-11-21 | 0 | 5 | 50 | 44 | 52 | 24 |
+| 30d | 2026-10-13 | 0 | 0 | 8 | 0 | 6 | 0 |
+| last60d | 2026-09-13 | 0 | 0 | 12 | 0 | 12 | 0 |
+| 90d | 2026-08-14 | 0 | 0 | 12 | 2 | 12 | 0 |
+| last180d | 2026-05-16 | 0 | 1 | 30 | 4 | 18 | 2 |
+| 360d | 2025-11-17 | 0 | 4 | 44 | 12 | 29 | 14 |
+| last720d | 2024-11-22 | 0 | 5 | 51 | 43 | 54 | 24 |
 
 ## Release assets
 
@@ -93,7 +93,7 @@ Reported by **92** distros on [repology.org](https://repology.org/project/ttyd).
 | Ubuntu 26.04 LTS | `1.7.7` | ✅ latest |
 | Ubuntu 24.04 LTS | `1.7.4` | ⚠️ outdated |
 | Arch | `1.7.7` | ✅ latest |
-| Homebrew | `1.7.7` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.7.7` | ✅ latest |
 | Nix unstable | `1.7.7` | ✅ latest |
 | Void | `1.7.7` | ✅ latest |
@@ -109,4 +109,4 @@ Install metadata for ttyd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:10:46Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:56:11Z._
