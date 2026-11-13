@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 855,
       "digest": null,
-      "download_count": 35811,
+      "download_count": 36475,
       "created_at": "2024-03-30T03:08:41Z",
       "updated_at": "2024-03-30T03:08:41Z",
       "browser_download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/SHA256SUMS"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1370112,
       "digest": null,
-      "download_count": 177755,
+      "download_count": 178862,
       "created_at": "2024-03-30T03:08:41Z",
       "updated_at": "2024-03-30T03:08:41Z",
       "browser_download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.aarch64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1279284,
       "digest": null,
-      "download_count": 9099,
+      "download_count": 9107,
       "created_at": "2024-03-30T03:08:40Z",
       "updated_at": "2024-03-30T03:08:40Z",
       "browser_download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.arm"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1271096,
       "digest": null,
-      "download_count": 11730,
+      "download_count": 11752,
       "created_at": "2024-03-30T03:08:40Z",
       "updated_at": "2024-03-30T03:08:40Z",
       "browser_download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.armhf"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1496008,
       "digest": null,
-      "download_count": 10109,
+      "download_count": 10132,
       "created_at": "2024-03-30T03:08:39Z",
       "updated_at": "2024-03-30T03:08:40Z",
       "browser_download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.i686"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 1620732,
       "digest": null,
-      "download_count": 12849,
+      "download_count": 12854,
       "created_at": "2024-03-30T03:08:39Z",
       "updated_at": "2024-03-30T03:08:39Z",
       "browser_download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.mips"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1563784,
       "digest": null,
-      "download_count": 533,
+      "download_count": 539,
       "created_at": "2024-03-30T03:08:39Z",
       "updated_at": "2024-03-30T03:08:39Z",
       "browser_download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.mips64"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1624828,
       "digest": null,
-      "download_count": 397,
+      "download_count": 400,
       "created_at": "2024-03-30T03:08:38Z",
       "updated_at": "2024-03-30T03:08:38Z",
       "browser_download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.mipsel"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 1409024,
       "digest": null,
-      "download_count": 30600,
+      "download_count": 30811,
       "created_at": "2024-03-30T03:08:37Z",
       "updated_at": "2024-03-30T03:08:37Z",
       "browser_download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.win32.exe"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 1362040,
       "digest": null,
-      "download_count": 2233614,
+      "download_count": 2245927,
       "created_at": "2024-03-30T03:08:36Z",
       "updated_at": "2024-03-30T03:08:37Z",
       "browser_download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.x86_64"
