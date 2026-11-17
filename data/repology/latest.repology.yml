@@ -1,128 +1,49 @@
-- repo: homebrew
-  srcname: ttyd
-  visiblename: ttyd
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Command-line tool for sharing terminal over the web
-- repo: kali_rolling
-  subrepo: main
-  srcname: ttyd
-  binnames:
-    - ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: 1.7.7-8
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: ttyd
-  visiblename: ttyd
-  version: 1.7.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - e817509a-8ee9-4332-b0ad-3a6bdf9ab63f@aleeas.com
-- repo: raspbian_stable
-  subrepo: main
-  srcname: ttyd
-  binnames:
-    - ttyd
-  visiblename: ttyd
-  version: 1.7.4
-  origversion: 1.7.4-1
-  status: outdated
-  maintainers:
-    - daniel.baumann@progress-linux.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ttyd
-  binnames:
-    - ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: 1.7.7-8
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
-- repo: stalix_dev
-  srcname: bin/tty/d
-  binname: bin/tty/d
-  visiblename: bin/tty/d
-  version: 1.7.7
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: scoop
-  subrepo: main
-  binname: ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: solus
-  srcname: ttyd
-  binname: ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: null
-  status: newest
-  summary: Share your terminal over the web
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - MIT
-  categories:
-    - network.util
-- repo: solus
-  srcname: ttyd
-  binname: ttyd-dbginfo
-  visiblename: ttyd-dbginfo
-  version: 1.7.7
-  origversion: null
-  status: newest
-  summary: Debug symbols for ttyd
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - MIT
-  categories:
-    - debug
-- repo: stalix
-  srcname: bin/tty/d
-  binname: bin/tty/d
-  visiblename: bin/tty/d
-  version: 1.7.7
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: alpine_3_17
   subrepo: community
   srcname: ttyd
-  binname: ttyd-doc
-  visiblename: ttyd-doc
+  binname: ttyd
+  visiblename: ttyd
   version: 1.7.2
   origversion: 1.7.2-r0
   status: outdated
-  summary: Share your terminal over the web (documentation)
+  summary: Share your terminal over the web
   maintainers:
     - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: ttyd
+  binname: ttyd
+  visiblename: ttyd
+  version: 1.7.3
+  origversion: 1.7.3-r0
+  status: outdated
+  summary: Share your terminal over the web
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: ttyd
+  binname: ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: 1.7.7-4
+  status: newest
+  summary: Share your terminal over the web
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: ttyd
+  binname: ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: 1.7.7-4
+  status: newest
+  summary: Share your terminal over the web
   licenses:
     - MIT
 - repo: aerynos
@@ -139,29 +60,29 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: ttyd
-  binname: ttyd
-  visiblename: ttyd
+  binname: ttyd-doc
+  visiblename: ttyd-doc
   version: 1.7.2
   origversion: 1.7.2-r0
   status: outdated
-  summary: Share your terminal over the web
+  summary: Share your terminal over the web (documentation)
   maintainers:
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: alpine_3_18
-  subrepo: community
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: ttyd
-  binname: ttyd
+  binnames:
+    - ttyd
   visiblename: ttyd
-  version: 1.7.3
-  origversion: 1.7.3-r0
+  version: 1.6.3+20210924
+  origversion: 1.6.3+20210924-1
   status: outdated
-  summary: Share your terminal over the web
   maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
+    - daniel.baumann@progress-linux.org
+  categories:
+    - misc
 - repo: alpine_3_18
   subrepo: community
   srcname: ttyd
@@ -279,32 +200,6 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: deepin_25
-  subrepo: community
-  srcname: ttyd
-  binnames:
-    - ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: 1.7.7-4
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: ttyd
-  binnames:
-    - ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: 1.7.7-8
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
 - repo: alpine_3_23
   subrepo: community
   srcname: ttyd
@@ -331,6 +226,19 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
+- repo: raspbian_stable
+  subrepo: main
+  srcname: ttyd
+  binnames:
+    - ttyd
+  visiblename: ttyd
+  version: 1.7.4
+  origversion: 1.7.4-1
+  status: outdated
+  maintainers:
+    - daniel.baumann@progress-linux.org
+  categories:
+    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: ttyd
@@ -427,17 +335,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
-- repo: arch
-  subrepo: extra
-  srcname: ttyd
-  binname: ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: 1.7.7-4
-  status: newest
-  summary: Share your terminal over the web
-  licenses:
-    - MIT
 - repo: aur
   srcname: ttyd-git
   binname: ttyd-git
@@ -476,6 +373,32 @@
     - daniel@debian.org
   categories:
     - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: ttyd
+  binnames:
+    - ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: 1.7.7-4
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: ttyd
+  binnames:
+    - ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: 1.7.7-8
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
 - repo: epel_8
   srcname: ttyd
   visiblename: ttyd
@@ -487,6 +410,19 @@
     - MIT
   categories:
     - Unspecified
+- repo: raspbian_testing
+  subrepo: main
+  srcname: ttyd
+  binnames:
+    - ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: 1.7.7-8
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
 - repo: epel_9
   srcname: ttyd
   binnames:
@@ -605,6 +541,20 @@
     - MIT
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: ttyd
+  binnames:
+    - ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: 1.7.7-11.fc45
+  status: newest
+  summary: Share your terminal over HTTP
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: ttyd
@@ -660,6 +610,19 @@
 - repo: gentoo
   srcname: www-apps/ttyd
   visiblename: www-apps/ttyd
+  version: 1.7.7
+  origversion: 1.7.7-r4
+  status: newest
+  summary: ttyd, a simple command-line tool for sharing terminal over the web
+  maintainers:
+    - mpagano@gentoo.org
+  licenses:
+    - MIT
+  categories:
+    - www-apps
+- repo: gentoo
+  srcname: www-apps/ttyd
+  visiblename: www-apps/ttyd
   version: "9999"
   origversion: null
   status: rolling
@@ -677,6 +640,35 @@
   origversion: null
   status: newest
   summary: Command-line tool for sharing terminal over the web
+- repo: homebrew
+  srcname: ttyd
+  visiblename: ttyd
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Command-line tool for sharing terminal over the web
+- repo: kali_rolling
+  subrepo: main
+  srcname: ttyd
+  binnames:
+    - ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: 1.7.7-8
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
+- repo: kiss_community
+  subrepo: community
+  srcname: ttyd
+  visiblename: ttyd
+  version: 1.7.4
+  origversion: null
+  status: outdated
+  maintainers:
+    - e817509a-8ee9-4332-b0ad-3a6bdf9ab63f@aleeas.com
 - repo: liguros_stable
   srcname: www-apps/ttyd
   visiblename: www-apps/ttyd
@@ -732,6 +724,19 @@
 - repo: liguros_develop
   srcname: www-apps/ttyd
   visiblename: www-apps/ttyd
+  version: 1.7.7
+  origversion: 1.7.7-r4
+  status: newest
+  summary: ttyd, a simple command-line tool for sharing terminal over the web
+  maintainers:
+    - mpagano@gentoo.org
+  licenses:
+    - MIT
+  categories:
+    - www-apps
+- repo: liguros_develop
+  srcname: www-apps/ttyd
+  visiblename: www-apps/ttyd
   version: "9999"
   origversion: null
   status: rolling
@@ -773,17 +778,6 @@
   binname: ttyd
   visiblename: ttyd
   version: 1.7.7
-  origversion: 1.7.7-3
-  status: newest
-  summary: Share your terminal over the web
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: ttyd
-  binname: ttyd
-  visiblename: ttyd
-  version: 1.7.7
   origversion: 1.7.7-4
   status: newest
   summary: Share your terminal over the web
@@ -794,35 +788,17 @@
   binname: mingw-w64-clang-x86_64-ttyd
   visiblename: mingw-w64-clang-x86_64-ttyd
   version: 1.7.7
-  origversion: 1.7.7-1
+  origversion: 1.7.7-2
   status: newest
   summary: Share your terminal over the web (mingw-w64)
   licenses:
     - spdx:MIT
-- repo: rosa_13
-  subrepo: contrib/release
-  srcname: ttyd
-  binnames:
-    - ttyd
-    - ttyd-debuginfo
-    - ttyd-debugsource
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: 1.7.7-2
-  status: newest
-  summary: Simple command-line tool for sharing terminal over the web
-  maintainers:
-    - a.proklov@rosa.ru
-  licenses:
-    - MIT
-  categories:
-    - Terminals
 - repo: msys2_clangarm64
   srcname: mingw-w64-ttyd
   binname: mingw-w64-clang-aarch64-ttyd
   visiblename: mingw-w64-clang-aarch64-ttyd
   version: 1.7.7
-  origversion: 1.7.7-1
+  origversion: 1.7.7-2
   status: newest
   summary: Share your terminal over the web (mingw-w64)
   licenses:
@@ -832,7 +808,7 @@
   binname: mingw-w64-ucrt-x86_64-ttyd
   visiblename: mingw-w64-ucrt-x86_64-ttyd
   version: 1.7.7
-  origversion: 1.7.7-1
+  origversion: 1.7.7-2
   status: newest
   summary: Share your terminal over the web (mingw-w64)
   licenses:
@@ -984,19 +960,83 @@
   version: 1.7.7
   origversion: 1.7.7-1
   status: newest
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: rosa_13
+  subrepo: contrib/release
   srcname: ttyd
   binnames:
     - ttyd
+    - ttyd-debuginfo
+    - ttyd-debugsource
   visiblename: ttyd
-  version: 1.6.3+20210924
-  origversion: 1.6.3+20210924-1
-  status: outdated
+  version: 1.7.7
+  origversion: 1.7.7-2
+  status: newest
+  summary: Simple command-line tool for sharing terminal over the web
   maintainers:
-    - daniel.baumann@progress-linux.org
+    - a.proklov@rosa.ru
+  licenses:
+    - MIT
   categories:
-    - misc
+    - Terminals
+- repo: scoop
+  subrepo: main
+  binname: ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: solus
+  srcname: ttyd
+  binname: ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: null
+  status: newest
+  summary: Share your terminal over the web
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
+  categories:
+    - network.util
+- repo: solus
+  srcname: ttyd
+  binname: ttyd-dbginfo
+  visiblename: ttyd-dbginfo
+  version: 1.7.7
+  origversion: null
+  status: newest
+  summary: Debug symbols for ttyd
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
+  categories:
+    - debug
+- repo: stalix
+  srcname: bin/tty/d
+  binname: bin/tty/d
+  visiblename: bin/tty/d
+  version: 1.7.7
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/tty/d
+  binname: bin/tty/d
+  visiblename: bin/tty/d
+  version: 1.7.7
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: termux
   srcname: ttyd
   binname: ttyd
