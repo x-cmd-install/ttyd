@@ -1,4 +1,4 @@
-- repo: nix_stable_24_05
+- repo: nix_stable_25_11
   srcname: ttyd
   visiblename: ttyd
   version: 1.7.7
@@ -9,31 +9,19 @@
     - aseipp@pobox.com
   licenses:
     - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: ttyd
-  binname: ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: 1.7.7-4
-  status: newest
-  summary: Share your terminal over the web
-  licenses:
-    - MIT
-- repo: fedora_43
-  subrepo: release
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: ttyd
   binnames:
     - ttyd
   visiblename: ttyd
   version: 1.7.7
-  origversion: 1.7.7-7.fc43
+  origversion: 1.7.7-8
   status: newest
-  summary: Share your terminal over HTTP
-  licenses:
-    - MIT
+  maintainers:
+    - daniel@debian.org
   categories:
-    - Unspecified
+    - misc
 - repo: aerynos
   srcname: ttyd
   visiblename: ttyd
@@ -97,19 +85,6 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: ttyd
-  binnames:
-    - ttyd
-  visiblename: ttyd
-  version: 1.6.3+20210924
-  origversion: 1.6.3+20210924-1
-  status: outdated
-  maintainers:
-    - daniel.baumann@progress-linux.org
-  categories:
-    - misc
 - repo: alpine_3_19
   subrepo: community
   srcname: ttyd
@@ -253,19 +228,6 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: raspbian_stable
-  subrepo: main
-  srcname: ttyd
-  binnames:
-    - ttyd
-  visiblename: ttyd
-  version: 1.7.4
-  origversion: 1.7.4-1
-  status: outdated
-  maintainers:
-    - daniel.baumann@progress-linux.org
-  categories:
-    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: ttyd
@@ -321,6 +283,17 @@
     - MIT
   categories:
     - Terminals
+- repo: nix_stable_25_05
+  srcname: ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: null
+  status: newest
+  summary: Share your terminal over the web
+  maintainers:
+    - aseipp@pobox.com
+  licenses:
+    - MIT
 - repo: altsisyphus
   srcname: ttyd
   binnames:
@@ -411,19 +384,6 @@
     - daniel@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: ttyd
-  binnames:
-    - ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: 1.7.7-8
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
 - repo: epel_8
   srcname: ttyd
   visiblename: ttyd
@@ -450,19 +410,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ttyd
-  binnames:
-    - ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: 1.7.7-8
-  status: newest
-  maintainers:
-    - daniel@debian.org
-  categories:
-    - misc
 - repo: epel_10
   srcname: ttyd
   binnames:
@@ -532,6 +479,20 @@
   visiblename: ttyd
   version: 1.7.7
   origversion: 1.7.7-2.fc42
+  status: newest
+  summary: Share your terminal over HTTP
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: ttyd
+  binnames:
+    - ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: 1.7.7-7.fc43
   status: newest
   summary: Share your terminal over HTTP
   licenses:
@@ -733,6 +694,17 @@
     - MIT
   categories:
     - www-apps
+- repo: stalix
+  srcname: bin/tty/d
+  binname: bin/tty/d
+  visiblename: bin/tty/d
+  version: 1.7.7
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: liguros_develop
   srcname: www-apps/ttyd
   visiblename: www-apps/ttyd
@@ -792,12 +764,23 @@
   binname: ttyd
   visiblename: ttyd
   version: 1.7.7
-  origversion: 1.7.7-3
+  origversion: 1.7.7-4
   status: newest
   summary: Share your terminal over the web
   licenses:
     - MIT
 - repo: manjaro_testing
+  subrepo: extra
+  srcname: ttyd
+  binname: ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: 1.7.7-4
+  status: newest
+  summary: Share your terminal over the web
+  licenses:
+    - MIT
+- repo: manjaro_unstable
   subrepo: extra
   srcname: ttyd
   binname: ttyd
@@ -838,29 +821,18 @@
   summary: Share your terminal over the web (mingw-w64)
   licenses:
     - spdx:MIT
+- repo: nix_stable_24_05
+  srcname: ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: null
+  status: newest
+  summary: Share your terminal over the web
+  maintainers:
+    - aseipp@pobox.com
+  licenses:
+    - MIT
 - repo: nix_stable_24_11
-  srcname: ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: null
-  status: newest
-  summary: Share your terminal over the web
-  maintainers:
-    - aseipp@pobox.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: ttyd
-  visiblename: ttyd
-  version: 1.7.7
-  origversion: null
-  status: newest
-  summary: Share your terminal over the web
-  maintainers:
-    - aseipp@pobox.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
   srcname: ttyd
   visiblename: ttyd
   version: 1.7.7
@@ -974,6 +946,45 @@
   version: 1.7.7
   origversion: 1.7.7-1
   status: newest
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: ttyd
+  binnames:
+    - ttyd
+  visiblename: ttyd
+  version: 1.6.3+20210924
+  origversion: 1.6.3+20210924-1
+  status: outdated
+  maintainers:
+    - daniel.baumann@progress-linux.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: ttyd
+  binnames:
+    - ttyd
+  visiblename: ttyd
+  version: 1.7.4
+  origversion: 1.7.4-1
+  status: outdated
+  maintainers:
+    - daniel.baumann@progress-linux.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: ttyd
+  binnames:
+    - ttyd
+  visiblename: ttyd
+  version: 1.7.7
+  origversion: 1.7.7-8
+  status: newest
+  maintainers:
+    - daniel@debian.org
+  categories:
+    - misc
 - repo: rosa_13
   subrepo: contrib/release
   srcname: ttyd
@@ -1029,17 +1040,6 @@
     - MIT
   categories:
     - debug
-- repo: stalix
-  srcname: bin/tty/d
-  binname: bin/tty/d
-  visiblename: bin/tty/d
-  version: 1.7.7
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: stalix_dev
   srcname: bin/tty/d
   binname: bin/tty/d
