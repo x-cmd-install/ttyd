@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,678 · **Forks**: 1,231 · **Open issues**: 641 · **Contributors**: 65
+- **Stars**: 12,683 · **Forks**: 1,231 · **Open issues**: 641 · **Contributors**: 65
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 0 | 14 | 0 | 5 | 0 |
-| last60d | 2026-09-26 | 0 | 0 | 18 | 2 | 9 | 0 |
-| 90d | 2026-08-27 | 0 | 0 | 20 | 4 | 10 | 0 |
-| last180d | 2026-05-29 | 0 | 1 | 37 | 4 | 16 | 2 |
-| 360d | 2025-11-30 | 0 | 4 | 52 | 14 | 27 | 14 |
-| last720d | 2024-12-05 | 0 | 5 | 59 | 44 | 51 | 19 |
+| 30d | 2026-10-27 | 0 | 0 | 13 | 0 | 4 | 0 |
+| last60d | 2026-09-27 | 0 | 0 | 18 | 2 | 9 | 0 |
+| 90d | 2026-08-28 | 0 | 0 | 20 | 4 | 10 | 0 |
+| last180d | 2026-05-30 | 0 | 1 | 37 | 4 | 16 | 2 |
+| 360d | 2025-12-01 | 0 | 4 | 51 | 14 | 27 | 14 |
+| last720d | 2024-12-06 | 0 | 5 | 59 | 44 | 51 | 19 |
 
 ## Release assets
 
@@ -82,6 +82,24 @@ Lowest-scoring checks:
 | [ttyd.win32.exe](https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.win32.exe) | 1.3 MiB | `native/win/x64` |
 | [ttyd.x86_64](https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.x86_64) | 1.3 MiB | `other` |
 
+## Distribution status
+
+Reported by **96** distros on [repology.org](https://repology.org/project/ttyd). **76** are ✅ on the latest upstream release, **15** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.7.7` | ✅ latest |
+| Debian 14 | `1.7.7` | ✅ latest |
+| Ubuntu 26.04 LTS | `1.7.7` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.7.4` | ⚠️ outdated |
+| Arch | `1.7.7` | ✅ latest |
+| Homebrew | `1.7.7` | ✅ latest |
+| Fedora rawhide | `1.7.7` | ✅ latest |
+| Nix unstable | `1.7.7` | ✅ latest |
+| Void | `1.7.7` | ✅ latest |
+| Alpine edge | `1.7.7` | ✅ latest |
+| openSUSE Tumbleweed | `1.7.7` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for ttyd lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ttyd` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -91,4 +109,4 @@ Install metadata for ttyd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T09:42:46Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:55:33Z._
